@@ -20,7 +20,7 @@ const ListingDetails = () => {
   const getListingDetails = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/properties/${listingId}`,
+        `https://home-haven-wu19.onrender.com/properties/${listingId}`,
         {
           method: "GET",
         }
@@ -75,7 +75,7 @@ const ListingDetails = () => {
       };
 
       const response = await fetch(
-        "http://localhost:3001/bookings/create",
+        "https://home-haven-wu19.onrender.com/bookings/create",
         {
           method: "POST",
           headers: {
@@ -106,7 +106,7 @@ const ListingDetails = () => {
         <div className="photos">
           {listing.listingPhotoPaths?.map((item) => (
             <img
-              src={`http://localhost:3001/${item.replace(
+              src={`https://home-haven-wu19.onrender.com/${item.replace(
                 "public",
                 ""
               )}`}
@@ -127,7 +127,7 @@ const ListingDetails = () => {
 
         <div className="profile">
           <img
-            src={`http://localhost:3001/${listing.creator.profileImagePath.replace(
+            src={`https://home-haven-wu19.onrender.com/${listing?.creator?.profileImagePath.replace(
               "public",
               ""
             )}`}

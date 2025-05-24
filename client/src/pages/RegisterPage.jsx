@@ -47,7 +47,7 @@ const RegisterPage = () => {
       }
 
       const response = await fetch(
-        "http://localhost:3001/auth/register",
+        "https://home-haven-wu19.onrender.com/auth/register",
         {
           method: "POST",
           body: register_form,

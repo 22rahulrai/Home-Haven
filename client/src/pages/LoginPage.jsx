@@ -17,7 +17,7 @@ const LoginPage = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3001/auth/login",
+        "https://home-haven-wu19.onrender.com/auth/login",
         {
           method: "POST",
           headers: {
