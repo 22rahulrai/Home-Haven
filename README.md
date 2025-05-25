@@ -89,6 +89,34 @@ npm start
 
 ## 📁 Project Structure
 
+```bash
+Home-Haven/
+├── client/                     # React frontend
+│   ├── public/                 # Static assets
+│   └── src/                    # React source code
+│       ├── assets/            # Images and static files
+│       ├── components/        # Reusable components (e.g., Navbar, Card)
+│       ├── pages/             # Route-level components (e.g., Home, Login, Listing)
+│       ├── services/          # API calls using Axios
+│       ├── App.js             # Main application component
+│       ├── index.js           # Entry point
+│       └── ...                # Other config or hooks
+│
+├── server/                    # Express backend
+│   ├── config/                # DB connection, cloud configs
+│   ├── controllers/           # Route logic (e.g., authController, bookingController)
+│   ├── models/                # Mongoose schemas (e.g., User.js, Place.js)
+│   ├── routes/                # Express routes (e.g., /api/users, /api/places)
+│   ├── middleware/            # Auth middleware, error handling
+│   ├── uploads/               # Image upload storage (if using local uploads)
+│   ├── .env                   # Environment variables
+│   └── index.js               # Server entry point
+│
+├── .gitignore                 # Files and folders to ignore in git
+├── README.md                  # Project documentation
+└── package.json               # Project metadata and dependencies (root, optional if split)
+```
+
 
 
 ## 👨‍💻 Contributing
@@ -112,4 +140,6 @@ git push origin feature/feature-name
 
 5. Open a pull request
 
+## 🙋‍♂️ Contact
 
+Made with ❤️ by Rahul Rai
