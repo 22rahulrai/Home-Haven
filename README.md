@@ -7,6 +7,12 @@
 [Click here to view the live site](https://home-haven-nu.vercel.app/) <!-- Replace '#' with your live URL -->
 
 ---
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/22rahulrai/Home-Haven)
+
+## Ask DeepWiki
+
+Explore more about Home Haven on DeepWiki! Click the badge above to access the page.
+
 
 ## 📌 Features
 
